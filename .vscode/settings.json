@@ -1,0 +1,26 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "gleam.gleam",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [185],
+  "editor.wordWrapColumn": 180,
+  "css.lint.unknownAtRules": "ignore",
+  "editor.wordWrap": "wordWrapColumn",
+  "[gleam]": {
+    "editor.defaultFormatter": "gleam.gleam",
+    "editor.formatOnSave": true
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "files.exclude": {
+    "target": true,
+    ".gitattributes": true,
+    "build": true,
+    "manifest.toml": true
+  }
+}
